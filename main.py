@@ -27,8 +27,11 @@ def chatbot():
         if route == "rag":
             docs = db.similarity_search(query)
 
-            context = docs[0].page_content
-
+            if docs:
+                context = docs[0].page_content
+            else:
+                print("AI: No relevant data found")
+                continue
             prompt = f"""
             Answer the question based on this context:
 

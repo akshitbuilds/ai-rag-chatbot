@@ -1,5 +1,7 @@
 def decide_route(query):
-    if "debales" in query.lower():
-        return "rag"
-    else:
+    query = query.lower()
+
+    if "who" in query or "latest" in query or "news" in query:
         return "search"
+    
+    return "rag"
