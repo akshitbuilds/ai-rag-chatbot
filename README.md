@@ -52,7 +52,7 @@ AI: Elon Musk is a businessman and entrepreneur known for Tesla, SpaceX, X, and 
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/agrawalakshit0809-bit/ai-rag-chatbot.git
+git clone https://github.com/akshitbuilds/ai-rag-chatbot.git
 cd ai-rag-chatbot
 ```
 
